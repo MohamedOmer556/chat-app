@@ -1,0 +1,34 @@
+.app {
+  min-height: 100vh;
+  background: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  overflow: hidden;
+  position: relative;
+}
+.arrow1 {
+  min-width: 33vw;
+  min-height: 75vh;
+  background: hsl(264, 100%, 61%);
+  align-self: flex-start;
+  border-radius: 0rem 0rem 40rem 40rem;
+  left: -10%;
+  top: 0%;
+  position: absolute;
+}
+
+.arrow2 {
+  min-width: 33vw;
+  min-height: 80vh;
+  background: hsl(270, 20%, 96%);
+  border-radius: 40rem 40rem 0rem 0rem;
+  bottom: -0%;
+  position: absolute;
+  right: -12%;
+}
+
+footer {
+  min-height: 10vh;
+  background: mediumslateblue;
+}

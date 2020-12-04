@@ -1,0 +1,209 @@
+/* text */
+$color1: hsl(276, 100%, 81%);
+$color2: hsl(276, 55%, 52%);
+$color3: hsl(271, 15%, 43%);
+$color4: hsl(206, 6%, 79%);
+$color5: hsl(271, 36%, 24%);
+$color6: hsl(270, 7%, 64%);
+/* Secondary */
+$app-background: hsl(270, 20%, 96%);
+$submit-button-background: hsl(271, 36%, 24%);
+$radio-button-outline: hsl(289, 100%, 72%);
+
+@import "global";
+@import "arrow";
+@import "app-text";
+@import "chat-app";
+
+@media screen and (max-width: 1318px) {
+  .left-panel {
+    margin: auto 5rem auto 0.5rem;
+  }
+}
+@media screen and (max-width: 1290px) {
+  html {
+    font-size: 55%;
+  }
+  .message-text {
+    flex: 1 1 20rem;
+  }
+}
+@media screen and (max-width: 1132px) {
+  html {
+    font-size: 45%;
+  }
+  .phone {
+    width: 47%;
+
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .app {
+    min-height: 90vh;
+  }
+}
+@media screen and (max-width: 1074px) {
+  .message {
+    margin-bottom: 0.5rem;
+  }
+  .phone {
+    width: 47%;
+
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+@media screen and (max-width: 1013px) {
+  .message {
+    margin-bottom: 0.5rem;
+  }
+  .phone {
+    width: 52%;
+
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+@media screen and (max-width: 950px) {
+  .message {
+    margin-bottom: 0.5rem;
+  }
+  .phone {
+    width: 55%;
+
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media screen and (max-width: 898px) {
+  footer,
+  .arrow2 {
+    display: none;
+  }
+  .app-text,
+  .phone {
+    grid-row: auto;
+    grid-column: auto;
+  }
+  .main {
+    grid-template-columns: repeat(autofit-minmax(30rem, 1fr));
+  }
+  .arrow1 {
+    min-width: 30vw;
+    min-height: 50vh;
+  }
+  .phone {
+    width: 33%;
+    margin-left: auto;
+    margin-right: auto;
+    min-height: 45vh;
+  }
+  .app-text {
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0rem 20rem 0rem 20rem;
+  }
+  .app {
+    background: white;
+    max-width: 50vw;
+    width: 90%;
+    margin: auto;
+    min-height: 50vh;
+  }
+  body {
+    background: $color6;
+  }
+}
+@media screen and (max-width: 816px) {
+  .phone {
+    width: 35%;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+@media screen and (max-width: 727px) {
+  .phone {
+    width: 42%;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .app-text {
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0rem 15rem 0rem 15rem;
+    font-size: 0.5rem;
+    text-align: center;
+  }
+}
+@media screen and (max-width: 615px) {
+  .phone {
+    width: 45%;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+@media screen and (max-width: 583px) {
+  .phone {
+    width: 53%;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+@media screen and (max-width: 481px) {
+  .phone {
+    width: 60%;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .app-text p {
+    font-size: 1.5rem;
+  }
+  .app {
+    background: white;
+    max-width: 60vw;
+    width: 90%;
+    margin: auto;
+    min-height: 50vh;
+  }
+  .app-text {
+    padding: 0rem 6rem 0rem 6rem;
+    align-items: center;
+  }
+}
+@media screen and (max-width: 443px) {
+  .phone {
+    width: 68%;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .app-text {
+    margin-top: 5rem;
+    padding: 0rem 3rem 0rem 3rem;
+  }
+  .app {
+    background: white;
+    max-width: 80vw;
+    width: 90%;
+    margin: auto;
+    min-height: 50vh;
+  }
+  .arrow1 {
+    width: 60%;
+  }
+}
+@media screen and (max-width: 381px) {
+  .phone {
+    width: 78%;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
