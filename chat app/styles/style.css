@@ -391,6 +391,9 @@ footer h5 {
         -ms-flex: 1 1 20rem;
             flex: 1 1 20rem;
   }
+  .left-panel {
+    margin: auto 5rem auto 0.5rem;
+  }
 }
 
 @media screen and (max-width: 1132px) {
@@ -484,7 +487,6 @@ footer h5 {
 @media screen and (max-width: 816px) {
   .phone {
     width: 35%;
-    height: 100%;
     margin-left: auto;
     margin-right: auto;
   }
@@ -551,13 +553,12 @@ footer h5 {
 
 @media screen and (max-width: 443px) {
   .phone {
-    width: 68%;
-    height: 100%;
+    width: 70%;
     margin-left: auto;
     margin-right: auto;
   }
   .app-text {
-    margin-top: 5rem;
+    margin-top: 15rem;
     padding: 0rem 3rem 0rem 3rem;
   }
   .app {
@@ -575,6 +576,15 @@ footer h5 {
 @media screen and (max-width: 381px) {
   .phone {
     width: 78%;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .phone {
+    width: 85%;
     height: 100%;
     margin-left: auto;
     margin-right: auto;
