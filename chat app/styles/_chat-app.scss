@@ -1,6 +1,6 @@
 .phone {
   grid-column: 1/2;
-  min-height: 51vh;
+  min-height: 55vh;
   display: flex;
   flex-direction: column;
   background: $app-background;
@@ -86,11 +86,11 @@
 }
 .left-chat1 {
   padding: 0.5rem 0.5rem;
-  margin: 0rem 10rem auto 0.5rem;
+  margin: auto 10rem auto 0.5rem;
   background: rgb(206, 223, 247);
 }
 .left-chat2 {
-  margin: 0rem 10rem auto 0.5rem;
+  margin: auto 10rem auto 0.5rem;
   padding: 0.5rem 0rem 2rem 2rem;
   background: rgb(206, 223, 247);
 }
@@ -106,7 +106,7 @@
   display: flex;
   flex-direction: row;
   justify-content: flex-end;
-  margin: 0rem 1rem auto 0rem;
+  margin: auto 1rem auto 0rem;
 }
 .dog-img {
   border-radius: 1rem;
@@ -126,19 +126,19 @@
 }
 .right-chat1 {
   padding: 1rem 0.5rem 1rem 0.5rem;
-  margin: 0rem 0.5rem auto 10rem;
+  margin: auto 0.5rem auto 10rem;
 }
 .right-chat2 {
-  margin: 0rem 0.5rem auto 14rem;
+  margin: auto 0.5rem auto 14rem;
   padding: 1rem 1rem 1rem 1rem;
 }
 .left-chat3 {
-  margin: 0rem 10rem auto 0.5rem;
+  margin: auto 10rem auto 0.5rem;
   background: rgb(206, 223, 247);
   margin-top: 0.6rem;
 }
 .left-panel {
-  margin: 0rem 7rem auto 0.5rem;
+  margin: auto 6rem auto 0.5rem;
   border-radius: 1rem 1rem 1rem 0.5rem;
   color: white;
 }
@@ -196,7 +196,7 @@
 }
 .message {
   display: flex;
-  margin: 0rem 0.5rem auto 0.5rem;
+  margin: auto 0.5rem auto 0.5rem;
   background: white;
   border: rgb(255, 255, 255) solid;
   border-radius: 4rem;

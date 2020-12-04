@@ -90,7 +90,7 @@ footer {
   -ms-grid-column: 1;
   -ms-grid-column-span: 1;
   grid-column: 1/2;
-  min-height: 51vh;
+  min-height: 55vh;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -197,12 +197,12 @@ footer {
 
 .left-chat1 {
   padding: 0.5rem 0.5rem;
-  margin: 0rem 10rem auto 0.5rem;
+  margin: auto 10rem auto 0.5rem;
   background: #cedff7;
 }
 
 .left-chat2 {
-  margin: 0rem 10rem auto 0.5rem;
+  margin: auto 10rem auto 0.5rem;
   padding: 0.5rem 0rem 2rem 2rem;
   background: #cedff7;
 }
@@ -226,7 +226,7 @@ footer {
   -webkit-box-pack: end;
       -ms-flex-pack: end;
           justify-content: flex-end;
-  margin: 0rem 1rem auto 0rem;
+  margin: auto 1rem auto 0rem;
 }
 
 .dog-img {
@@ -257,22 +257,22 @@ footer {
 
 .right-chat1 {
   padding: 1rem 0.5rem 1rem 0.5rem;
-  margin: 0rem 0.5rem auto 10rem;
+  margin: auto 0.5rem auto 10rem;
 }
 
 .right-chat2 {
-  margin: 0rem 0.5rem auto 14rem;
+  margin: auto 0.5rem auto 14rem;
   padding: 1rem 1rem 1rem 1rem;
 }
 
 .left-chat3 {
-  margin: 0rem 10rem auto 0.5rem;
+  margin: auto 10rem auto 0.5rem;
   background: #cedff7;
   margin-top: 0.6rem;
 }
 
 .left-panel {
-  margin: 0rem 7rem auto 0.5rem;
+  margin: auto 6rem auto 0.5rem;
   border-radius: 1rem 1rem 1rem 0.5rem;
   color: white;
 }
@@ -336,7 +336,7 @@ footer {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  margin: 0rem 0.5rem auto 0.5rem;
+  margin: auto 0.5rem auto 0.5rem;
   background: white;
   border: white solid;
   border-radius: 4rem;
@@ -575,7 +575,7 @@ footer h5 {
 
 @media screen and (max-width: 381px) {
   .phone {
-    width: 78%;
+    width: 83%;
     height: 100%;
     margin-left: auto;
     margin-right: auto;
@@ -584,7 +584,7 @@ footer h5 {
 
 @media screen and (max-width: 320px) {
   .phone {
-    width: 85%;
+    width: 88%;
     height: 100%;
     margin-left: auto;
     margin-right: auto;
